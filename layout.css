@@ -1,0 +1,96 @@
+#header{
+    color: rgb(211, 100, 100);
+    background-color: rgba(207, 202, 202, 0.534);
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+    marquee{
+        background-color: rgba(98, 68, 207, 0.61);
+    }
+
+
+    #logo{
+        font-size: 2rem;
+        margin-top: 4px;
+    }
+
+    #menu li{
+        display: block;
+    }
+
+    #menu li a{
+        color: rgb(206, 45, 184);
+        /* top bottom 15 and 10 px right left */
+        padding: 9px 9px;
+        display: block;
+        text-decoration: none;
+    }
+
+
+    #menu li a:hover{
+        background-color: black;
+    }
+    #banner{
+        background: url(pic.png );
+        background-size: cover;
+    }
+    .banner-title{
+        padding-top: 5rem;
+    }
+    .banner-title h1{
+        background-color: rgba(87, 68, 192, 0.8);
+        display: inline-block;
+        padding: 10px;
+        margin: 0;
+    }
+    .banner-title p.lead{
+        color: black;
+        background-color:rgb(184, 182, 182);
+        padding: 10px;
+    }
+    .section{
+        padding-top: 20px;
+        padding-bottom: 20px ;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        background-color:rgb(180, 180, 180);
+    }
+
+    .section h1.section-head{
+        /* margin-bottom: 40px; */
+        text-align: center;
+        color: brown;
+    }
+    .section h1.section-head:after{
+        content:"";
+        display: block;
+        width: 100px;
+        height: 4px;
+        margin: 20px auto;
+        background-color: rgb(160, 42, 42);
+        
+    }
+    
+    footer{
+        background-color: rgb(211, 182, 145);
+        padding: 15px;
+        
+    }
+    footer a{
+        text-decoration: none;
+        color: blueviolet;
+
+    }
+    footer a:hover{
+        background-color: brown;
+    }
+    
+    
+   
